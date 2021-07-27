@@ -11,7 +11,7 @@ from skimage import io, img_as_ubyte
 import random
 import os 
 from scipy.ndimage import rotate
-
+from albumentations.augmentations.crops.transforms import CropNonEmptyMaskIfExists, RandomCrop
 import albumentations as A
 
 
@@ -36,7 +36,10 @@ aug = A.Compose([
     A.RandomRotate90(p=0.5),
     A.HorizontalFlip(p=1),
     A.Transpose(p=1),
-    A.GridDistortion(p=1)])
+    A.GridDistortion(p=1),
+    CropNonEmptyMaskIfExists(p=0.3,height=512,width=512),
+    A.geometric.rotate.Rotate (limit=90, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
+])
 
 i=1
 
