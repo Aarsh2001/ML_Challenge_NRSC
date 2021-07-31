@@ -1,0 +1,14 @@
+git clone https://github.com/Aarsh2001/ML_Challenge_Seg
+cd ML_Challenge_Seg
+pip3 install -r requirements.txt
+
+Run for converting .csv mask file to .jpg  (output at ./Data_ML-20210731T185741Z-001/Data_ML/target)
+python3 pre_process.py 
+
+For augmentation (output at ./AUG_DATA)
+python3 augmentation.py
+
+Final Jupyter file :-  ml-challenge-unet-dice.ipynb
+
+To get output for submission run
+python3 run submission.py

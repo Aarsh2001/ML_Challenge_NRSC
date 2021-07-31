@@ -17,8 +17,8 @@ import albumentations as A
 
 IMAGES_TO_GENERATE = 2400
 
-images_path = './image_chips'
-mask_path = './target_data'
+images_path = './Data_ML-20210731T185741Z-001/Data_ML/image_chips'
+mask_path = './Data_ML-20210731T185741Z-001/Data_ML/target'
 
 img_aug_path = './ARG_LESS/train'
 mask_aug_path = './ARG_LESS/mask'
