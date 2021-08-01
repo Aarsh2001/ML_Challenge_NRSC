@@ -1,4 +1,4 @@
-# ML_Challenge_Seg
+# Electrical Substation extraction Challenge - IEEE-ICETCI 2021
 
 Team Members: Aarsh Chaube, Ved Dubey, Naman Garg and Soumya Snigdha Kundu.
 
