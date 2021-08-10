@@ -16,4 +16,4 @@ The task of this competition is to develop a Machine learning-based software usi
 
 # Methodology
 
-For reference, we've documented all approaches in an IEEE format [paper](https://github.com/Aarsh2001/ML_Challenge_NRSC/blob/main/3rd%20Rank%20Submission.pdf)
+For reference, we've documented all our approaches in an IEEE format [paper](https://github.com/Aarsh2001/ML_Challenge_NRSC/blob/main/3rd%20Rank%20Submission.pdf)
